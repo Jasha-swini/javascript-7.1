@@ -56,4 +56,43 @@ In data types we used "typeof" operator to know that what type of data it is.
 5.Bigint :-In bigint we will get big integer value.
 6.String :-String is a type of data type that can hold some charecter like names or words.
 7.Symbol :-In symbol we will get whole symbol as well as the value we get for the data type.
-2.Reference :-
+2.Reference or Non-primitive data type :-
+-Non-primitive data types are the type of data type that can hold multiple items in a single time.
+-Non-primitive data types are - object,array,funvtion
+-Objects in a non primitive datatype which can hold multiple of item in one single entity.
+-Mainly objects are working on (key:value)pair.
+-the left hand side is our keys and right hand side are the values of that key.
+
+ex.
+
+person = {
+    "name" : "web-bocket",
+    "age" : 2,
+    "business" : "software",
+    "carrier" : "good"
+}
+
+ex.of array:-
+
+let arr = [1,2,3,4,5,8,6,9,3,2]
+Note:-Array indexing start from "0".
+
+Ex. of function:-
+
+function great(){
+    console.log("Hello World")
+}
+great()
+
+Operator in Javascript :-
+
+-Operator are the key features to do some task or operate some task.
+-ex. A + B
+-In that given example A & B are the operands, "+" sign is our operator.
+-There are 5 types of operstor are their in javascript.
+
+1.Arithmetic Operator -> (+,-,*,/,%(Module), **(Exponents)).
+2.Unary operator-> ++(increment),--(decrement)
+3.Assignment operator -> ++(=, +=, -=, %=, **=)
+4.Logical operator -> (Logical and operator - &&),(logical or operator ||)
+5.Comparision Operator -> (==, !=, !==, ===)
